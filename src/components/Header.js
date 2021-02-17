@@ -8,7 +8,7 @@ class Header extends Component {
   render() {
     return (
       <div>
-        <h1 className="heading-background">DEVELOPER</h1>
+        <h1 className="heading-background">PLS SAY YES</h1>
         <header>
           <h1>
             <Fade bottom cascade>

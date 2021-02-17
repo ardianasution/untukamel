@@ -33,7 +33,7 @@ class Navbar extends Component {
               // offset={-70}
               duration={500}
             >
-              About
+              Why
             </Link>
           </li>
           <li>
@@ -46,7 +46,7 @@ class Navbar extends Component {
               // offset={-70}
               duration={500}
             >
-              Work
+              Pict
             </Link>
           </li>
           <li>
@@ -59,7 +59,7 @@ class Navbar extends Component {
               // offset={-70}
               duration={500}
             >
-              Contact
+              So?
             </Link>
           </li>
         </ul>

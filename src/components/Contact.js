@@ -10,39 +10,19 @@ class Contact extends Component {
       <div>
         <h1>
           <Fade bottom cascade>
-            {" "}
-            Contact.
+            So, would you be mine?
           </Fade>
         </h1>
-        <Fade bottom>
+        <img src="https://cdn.akurat.co/images/uploads/images/akurat_20200605053308_QVkR08.jpg" alt="Girl in a jacket"></img>
+        <Fade>
           <div className="contact-content">
-            <h2>
-              Let’s create your next
-              <span className="amazing-color"> experience together.</span>
+            <h2  className="email">
+              Let’s create our
+              <span className="amazing-color"> exquisite journey together.</span>
             </h2>
-            <a href={`mailto:${data.contactEmail}`} className="email">
+            {/* <a href={`mailto:${data.contactEmail}`}>
               {data.contactEmail}
-            </a>
-          </div>
-          <div className="social_links">
-            <h2> or kindly reach me out through</h2>
-            <ul>
-              <li>
-                <a href="https://www.linkedin.com/in/fitri-annisa-ahlul-jannah/">
-                  <FaLinkedin></FaLinkedin>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/ftrannisa">
-                  <FaGithub></FaGithub>
-                </a>
-              </li>
-              <li>
-                <a href="https://instagram.com/fitrinshl">
-                  <FaInstagram></FaInstagram>
-                </a>
-              </li>
-            </ul>
+            </a> */}
           </div>
         </Fade>
       </div>
